@@ -17,3 +17,20 @@ body, p {
 .box {
   padding: 0 32px;
 }
+
+.el-dialog {
+  width: calc(100vw - 20px) !important;
+}
+
+.el-dialog__header {
+  padding: 32px 32px 0 32px !important;
+  margin-right: 0px !important;
+}
+
+.el-dialog__body {
+  padding: 32px !important;
+}
+
+.el-dialog__footer {
+  padding: 0px 32px 32px 32px !important;
+}
