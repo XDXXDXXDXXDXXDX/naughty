@@ -1,0 +1,19 @@
+:root {
+  font-family: Roboto;
+  --main-color: #FD2B81;
+}
+
+html {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background-image: linear-gradient(180deg, #FAFAFA 54.17%, #EF98BC 71.87%, #FD2B81 95.31%);
+}
+
+body, p {
+  margin: 0;
+}
+
+.box {
+  padding: 0 32px;
+}
