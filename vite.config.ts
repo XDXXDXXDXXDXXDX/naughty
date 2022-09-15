@@ -9,6 +9,7 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
+  base: './',
   plugins: [vue(),
   AutoImport({
     resolvers: [ElementPlusResolver()],
