@@ -19,7 +19,9 @@ const wordDialogVisible = ref(false)
   <el-space direction="vertical" style="padding: 32px">
     <el-button :icon="FolderAdd" circle class="icon" plain @click="wordDialogVisible = true" />
     <el-button :icon="Delete" class="icon" circle />
-    <el-button :icon="Reading" class="icon" circle />
+    <router-link to="/management">
+      <el-button :icon="Reading" class="icon" circle />
+    </router-link>
   </el-space>
   <WordDialog :visible="wordDialogVisible" @close="wordDialogVisible = false" />
   <el-button class="create-btn" round plain size="large">CREATE</el-button>
